@@ -1,0 +1,16 @@
+sentence-transformers==2.2.2
+langchain==1.2.7
+flask==3.1.2
+
+# A pure python pdf library which is able to scrapp, merge,split and transform the files.
+pypdf==6.6.2
+python-dotenv==1.2.1
+openai==2.16.0
+pinecone[grpc]
+
+# Below library connects the langchain with pinecone vector database
+langchain-pinecone==0.2.13
+langchain_openai==1.1.7
+langchain_community==0.4.1
+langchain_experimental==0.4.1
+-e .
